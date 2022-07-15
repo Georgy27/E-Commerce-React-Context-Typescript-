@@ -1,10 +1,4 @@
-import React from 'react'
-import { useFilterContext } from '../context/filter_context'
-import { BsFillGridFill, BsList } from 'react-icons/bs'
 import styled from 'styled-components'
-const Sort = () => {
-  return <h4>sort </h4>
-}
 
 const Wrapper = styled.section`
   display: grid;
@@ -69,4 +63,4 @@ const Wrapper = styled.section`
   }
 `
 
-export default Sort
+export default Wrapper

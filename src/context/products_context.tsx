@@ -76,7 +76,7 @@ export const ProductsProvider: React.FC<ProviderProps> = ({ children }) => {
 
       try {
         const response = await axios.get(url);
-        const singleProduct = response.data as IProducts[];
+        const singleProduct = response.data as ISingleProduct;
 
         dispatch({ type: GET_SINGLE_PRODUCT_SUCCESS, payload: singleProduct });
       } catch (err) {

@@ -1,5 +1,5 @@
 import Home from "./HomePage";
-import Products from "./ProductsPage";
+import Products from "./products/ProductsPage";
 import SingleProduct from "./singleProduct/SingleProductPage";
 import About from "./about/AboutPage";
 import Cart from "./CartPage";
