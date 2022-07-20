@@ -16,3 +16,5 @@ export const getUniqueValues = (data: IProducts[], type: "category" | "company" 
 
   return ["all", ...new Set(unique)]
 };
+
+export const clamp = (num: number, min: number, max: number) => Math.max(Math.min(max, num), min);

@@ -5,7 +5,7 @@ import { useProductsContext } from "../../context/products_context";
 import { FaTimes } from "react-icons/fa";
 import { links } from "../../utils/constants";
 
-import CartButtons from "../cartButtons/CartButtons";
+import CartButtons from "../carts/cartButtons/CartButtons";
 import { useUserContext } from "../../context/user_context";
 import SidebarContainer from "./Sidebar.styles";
 

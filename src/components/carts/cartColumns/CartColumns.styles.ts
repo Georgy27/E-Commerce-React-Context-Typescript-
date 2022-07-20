@@ -1,9 +1,4 @@
-import React from 'react'
 import styled from 'styled-components'
-
-const CartColumns = () => {
-  return <h4>cart columns</h4>
-}
 
 const Wrapper = styled.div`
   display: none;
@@ -30,5 +25,4 @@ const Wrapper = styled.div`
     }
   }
 `
-
-export default CartColumns
+export default Wrapper

@@ -102,11 +102,11 @@ export const FilterProvider: React.FC<ProviderProps> = ({ children }) => {
 };
 
 export const useFilterContext = () => {
-  const products = useContext(FilterContext);
+  const filter = useContext(FilterContext);
 
-  if (products === null) {
+  if (filter === null) {
     throw new Error("Context value not provided");
   }
 
-  return products;
+  return filter;
 };

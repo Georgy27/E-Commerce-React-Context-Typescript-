@@ -25,7 +25,7 @@ export interface ISingleProduct {
   id: string;
   company: string;
   images: IImages[];
-  color: string[]
+  colors: string[]
 }
 
 export interface IProductsState {
