@@ -17,6 +17,9 @@ const CartItem = ({ id, image, name, color, price, amount }: ICartValues) => {
     toggleAmount(id, "dec");
   };
 
+  const remove = () => {
+    removeItem(id)
+  }
   return (
     <Wrapper>
       <div className="title">
@@ -30,7 +33,7 @@ const CartItem = ({ id, image, name, color, price, amount }: ICartValues) => {
         </div>
       </div>
       <h5 className="price">{formatPrice(price)}</h5>
-      <AmountButtons amount={amount} increase={increase} decrease={decrease} />
+      <AmountButtons amount={amount} increase={increase} decrease={decrease} remove={remove} />
       <h5 className="subtotal">{formatPrice(price * amount)}</h5>
       <button
         type="button"
